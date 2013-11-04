@@ -1,2 +1,1 @@
-eli-slider
-==========
+SLIDER
