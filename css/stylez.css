@@ -1,0 +1,538 @@
+@import url('http://fonts.googleapis.com/css?family=Advent+Pro:400,100,200,300,500,600,700');
+
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans:400,700');
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Advent Pro', sans-serif;
+  color: #06a0d8;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p {
+  color: #8a8a8a;
+  line-height: 34px;
+  font-size: 12px;
+}
+.scroll_me {
+  padding: 15px;
+  position: fixed;
+  bottom: -60px;
+  right: 10px;
+  cursor: pointer;
+  z-index: 9999;
+  color: white;
+  font-family: 'Advent Pro', sans-serif;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.scroll_me:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.spacer {
+  height: 76px;
+}
+.fixer {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.light_blue {
+  position: relative;
+  margin: 0 auto;
+  background: #44d1fa;
+  background: -moz-linear-gradient(top, #44d1fa 0%, #0bb4f2 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #44d1fa), color-stop(100%, #0bb4f2));
+  background: -webkit-linear-gradient(top, #44d1fa 0%, #0bb4f2 100%);
+  background: -o-linear-gradient(top, #44d1fa 0%, #0bb4f2 100%);
+  background: -ms-linear-gradient(top, #44d1fa 0%, #0bb4f2 100%);
+  background: linear-gradient(to bottom, #44d1fa 0%, #0bb4f2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#44d1fa, endColorstr=#0bb4f2, GradientType=0);
+}
+.light_blue .logo {
+  margin: 0px;
+  padding: 20px 0px;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  font-family: Georgia;
+  font-weight: bold;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.6);
+}
+.light_blue .logo a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+.light_blue .logo a:hover {
+  color: white;
+}
+.light_blue .menu {
+  font-family: 'Advent Pro', sans-serif;
+}
+.light_blue .menu .active {
+  box-shadow: inset 0px 1px 10px rgba(0, 0, 0, 0.25);
+  border-bottom: 4px solid white;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.5s background-color ease;
+  -moz-transition: 0.5s background-color ease;
+  -o-transition: 0.5s background-color ease;
+  transition: 0.5s background-color ease;
+}
+.light_blue .menu .active:hover {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.light_blue .menu li {
+  float: left;
+  list-style: none;
+}
+.light_blue .menu li:hover {
+  border-bottom: 4px solid rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.1s background-color ease;
+  -moz-transition: 0.1s background-color ease;
+  -o-transition: 0.1s background-color ease;
+  transition: 0.1s background-color ease;
+}
+.light_blue .menu a {
+  margin: 0px;
+  padding: 26px 10px;
+  display: inline-block;
+  float: left;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: 0.5s background-color ease;
+  -moz-transition: 0.5s background-color ease;
+  -o-transition: 0.5s background-color ease;
+  transition: 0.5s background-color ease;
+  -webkit-transition: 0.5s border-bottom ease;
+  -moz-transition: 0.5s border-bottom ease;
+  -o-transition: 0.5s border-bottom ease;
+  transition: 0.5s border-bottom ease;
+}
+.top_features {
+  padding-top: 20px;
+  text-align: center;
+}
+.top_features img {
+  display: block;
+  margin: 0 auto;
+}
+.featured_cols .iphones_img {
+  margin: 0 auto;
+  display: block;
+}
+.featured_cols .fb_iframe_widget {
+  position: relative;
+  top: -3px;
+}
+.testimonials1 {
+  height: 160px;
+  background: #0699cf;
+  background: -moz-linear-gradient(top, #0699cf 0%, #087ca7 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0699cf), color-stop(100%, #087ca7));
+  background: -webkit-linear-gradient(top, #0699cf 0%, #087ca7 100%);
+  background: -o-linear-gradient(top, #0699cf 0%, #087ca7 100%);
+  background: -ms-linear-gradient(top, #0699cf 0%, #087ca7 100%);
+  background: linear-gradient(to bottom, #0699cf 0%, #087ca7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0699cf, endColorstr=#087ca7, GradientType=0);
+}
+.testimonials1 .quotation1 {
+  top: 45px;
+  position: relative;
+}
+.testimonials1 h1,
+.testimonials1 p {
+  color: white;
+}
+.testimonials1 h1 {
+  position: relative;
+  left: 100px;
+  top: -30px;
+}
+.testimonials1 p {
+  position: relative;
+  left: 100px;
+  top: -45px;
+  font-weight: 100;
+  font-size: 12px;
+}
+.testimonials2 {
+  margin-bottom: 40px;
+}
+.testimonials2 .row > div {
+  position: relative;
+}
+.testimonials2 .text1 {
+  padding: 0px 100px;
+  position: absolute;
+  top: 60px;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  color: #575757;
+}
+.testimonials2 .reversed {
+  position: absolute;
+  right: 0px;
+  top: 60px;
+  transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  /* IE 9 */
+
+  -moz-transform: rotate(180deg);
+  /* Firefox */
+
+  -webkit-transform: rotate(180deg);
+  /* Safari and Chrome */
+
+  -o-transform: rotate(180deg);
+  /* Opera */
+
+}
+.pricing_tables {
+  padding-bottom: 30px;
+  text-align: center;
+  background-color: #3aaed9;
+  background-image: url(../img/pricing_bg.png);
+  background-position: center;
+}
+.pricing_tables ul {
+  margin: 0px;
+  margin-top: 60px;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.4);
+  background-color: #0a79a2;
+}
+.pricing_tables ul .caption {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 20px;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5);
+}
+.pricing_tables ul li {
+  padding: 20px 0px;
+  color: white;
+  list-style: none;
+  border-bottom: 1px solid #115f7c;
+  border-top: 1px solid #108ebd;
+}
+.pricing_tables .featured {
+  margin-top: 30px;
+  background-color: white;
+}
+.pricing_tables .featured li {
+  color: black;
+  border-bottom: 1px solid #d9d6d6;
+  border-top: none;
+}
+.pricing_tables a {
+  padding: 10px 40px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: 4px solid #c8c8c8;
+  background: #06a0d8;
+  background: -moz-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #06a0d8), color-stop(100%, #087ba5));
+  background: -webkit-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -o-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -ms-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: linear-gradient(to bottom, #06a0d8 0%, #087ba5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#06a0d8, endColorstr=#087ba5, GradientType=0);
+}
+.pricing_tables a:hover {
+  background: #07b0ee;
+  background: -moz-linear-gradient(top, #07b0ee 0%, #0987b6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #07b0ee), color-stop(100%, #0987b6));
+  background: -webkit-linear-gradient(top, #07b0ee 0%, #0987b6 100%);
+  background: -o-linear-gradient(top, #07b0ee 0%, #0987b6 100%);
+  background: -ms-linear-gradient(top, #07b0ee 0%, #0987b6 100%);
+  background: linear-gradient(to bottom, #07b0ee 0%, #0987b6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#07b0ee, endColorstr=#0987b6, GradientType=0);
+}
+.pricing_tables a:active {
+  background: #087ba5;
+  background: -moz-linear-gradient(top, #087ba5 0%, #06a0d8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #087ba5), color-stop(100%, #06a0d8));
+  background: -webkit-linear-gradient(top, #087ba5 0%, #06a0d8 100%);
+  background: -o-linear-gradient(top, #087ba5 0%, #06a0d8 100%);
+  background: -ms-linear-gradient(top, #087ba5 0%, #06a0d8 100%);
+  background: linear-gradient(to bottom, #087ba5 0%, #06a0d8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#087ba5, endColorstr=#06a0d8, GradientType=0);
+}
+.lightbox .buttoncentermargin {
+  position: relative;
+  top: -45px;
+  width: 200px;
+  margin: 0 auto;
+  background: white;
+}
+.lightbox .light-boxleft {
+  width: 406px;
+  float: left;
+  height: 274px;
+  margin-right: 0px;
+}
+.lightbox .largeimgl {
+  display: block;
+  width: 406px;
+  height: 274px;
+  overflow: hidden;
+}
+.lightbox .largeimgl img {
+  height: 274px;
+  max-height: 274px;
+  width: 406px;
+  max-width: 406px;
+}
+.lightbox .largeimgl div {
+  width: 406px;
+  height: 276px;
+  position: relative;
+  background: url(../img/viewl.png) no-repeat 172px 114px rgba(0, 0, 0, 0.15);
+  margin-top: 0px;
+}
+.lightbox .largeimgl:hover > div {
+  margin-top: -276px;
+}
+.lightbox .light-boxright {
+  width: 534px;
+  height: 274px;
+  float: right;
+}
+.lightbox .smallimgl {
+  display: block;
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 28px;
+  width: 158px;
+  height: 121px;
+  overflow: hidden;
+}
+.lightbox .smallimgl img {
+  width: 158px;
+  height: 121px;
+}
+.lightbox .smallimgl div {
+  width: 158px;
+  height: 121px;
+  position: relative;
+  margin-top: 0px;
+  background: url(../img/viewl.png) no-repeat 53px 42px rgba(0, 0, 0, 0.15);
+}
+.lightbox .smallimgl:hover > div {
+  margin-top: -121px;
+}
+.download_app .padding_container {
+  padding: 40px 0px;
+}
+.download_app .button_download {
+  width: 538px;
+  height: 93px;
+  display: block;
+  margin: 0 auto;
+}
+.newsletter .heading_top {
+  float: left;
+}
+.newsletter input {
+  padding: 10px 5px;
+  border-radius: 0px;
+  width: 100%;
+}
+.newsletter .email_input {
+  float: left;
+  width: 69%;
+}
+.newsletter .submit_button {
+  width: 27%;
+  padding: 11px 5px;
+  color: white;
+  border: none;
+  background-color: #0699cf;
+}
+.newsletter .submit_button:hover {
+  background-color: #07a8e4;
+}
+.newsletter .submit_button:active {
+  background-color: #058aba;
+}
+.newsletter .checkbox {
+  width: 20px;
+}
+.newsletter .conditions {
+  position: relative;
+  top: -23px;
+  left: 20px;
+}
+.newsletter .small_description {
+  margin: 0px;
+  position: relative;
+  top: 17px;
+  left: 10px;
+}
+.twitter {
+  margin: 40px 0px;
+  margin-top: 20px;
+  background-color: #65cdf3;
+}
+.twitter img {
+  padding: 13px 0px;
+  float: left;
+}
+.twitter a {
+  color: white;
+}
+.twitter ul {
+  margin-left: 70px;
+}
+.twitter ul li {
+  color: white;
+  list-style: none;
+  position: relative;
+  top: 26px;
+  font-size: 16px;
+}
+footer {
+  margin: 0px;
+  margin-top: 40px;
+  color: white;
+  background-color: #0699cf;
+}
+footer p {
+  margin: 0px;
+  padding: 20px 0px;
+  color: white;
+}
+footer .social_icons {
+  margin: 0px;
+  margin-top: 26px;
+}
+footer .social_icons li {
+  margin-left: 20px;
+  float: right;
+  list-style: none;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/social_sprites.png);
+}
+footer .social_icons li a {
+  display: block;
+  opacity: 0;
+  width: 22px;
+  height: 22px;
+  background-image: url(../img/social_sprites.png);
+  background-position: 0px 22px;
+  -webkit-transition: 0.7s opacity ease;
+  -moz-transition: 0.7s opacity ease;
+  -o-transition: 0.7s opacity ease;
+  transition: 0.7s opacity ease;
+}
+footer .social_icons li a:hover {
+  opacity: 1;
+  -webkit-transition: 0s opacity ease;
+  -moz-transition: 0s opacity ease;
+  -o-transition: 0s opacity ease;
+  transition: 0s opacity ease;
+}
+footer .social_icons .twitter_ico {
+  background-position: -44px 0px;
+}
+footer .social_icons .twitter_ico a {
+  background-position: -44px 22px;
+}
+footer .social_icons .linkedin_ico {
+  background-position: -22px 0px;
+}
+footer .social_icons .linkedin_ico a {
+  background-position: -22px 22px;
+}
+footer .social_icons .skype_ico {
+  background-position: -66px 0px;
+}
+footer .social_icons .skype_ico a {
+  background-position: -66px 22px;
+}
+footer .social_icons .vimeo_ico {
+  background-position: -88px 0px;
+}
+footer .social_icons .vimeo_ico a {
+  background-position: -88px 22px;
+}
+footer .social_icons .youtube_ico {
+  background-position: -110px 0px;
+}
+footer .social_icons .youtube_ico a {
+  background-position: -110px 22px;
+}
+footer .social_icons .googletalk_ico {
+  background-position: -132px 0px;
+}
+footer .social_icons .googletalk_ico a {
+  background-position: -132px 22px;
+}
+footer .social_icons .lastfm_ico {
+  background-position: -154px 0px;
+}
+footer .social_icons .lastfm_ico a {
+  background-position: -154px 22px;
+}
+footer .social_icons .dribbble_ico {
+  background-position: -177px 0px;
+}
+footer .social_icons .dribbble_ico a {
+  background-position: -177px 22px;
+}
+.spacerz {
+  margin-top: 40px;
+}
+.spacerz a {
+  margin: 0 auto;
+  padding: 13px 0px;
+  display: block;
+  position: relative;
+  top: -45px;
+  width: 150px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: 'Advent Pro', sans-serif;
+  text-shadow: 0px -1px 0px #000000;
+  border-radius: 5px;
+  background: #06a0d8;
+  background: -moz-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #06a0d8), color-stop(100%, #087ba5));
+  background: -webkit-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -o-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: -ms-linear-gradient(top, #06a0d8 0%, #087ba5 100%);
+  background: linear-gradient(to bottom, #06a0d8 0%, #087ba5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#06a0d8, endColorstr=#087ba5, GradientType=0);
+}
+.spacerz a:hover {
+  background: #07c0ff;
+  background: -moz-linear-gradient(top, #07c0ff 0%, #0987b6 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #07c0ff), color-stop(100%, #0987b6));
+  background: -webkit-linear-gradient(top, #07c0ff 0%, #0987b6 100%);
+  background: -o-linear-gradient(top, #07c0ff 0%, #0987b6 100%);
+  background: -ms-linear-gradient(top, #07c0ff 0%, #0987b6 100%);
+  background: linear-gradient(to bottom, #07c0ff 0%, #0987b6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#07c0ff, endColorstr=#0987b6, GradientType=0);
+}
+.spacerz a:active {
+  background: #0987b6;
+  background: -moz-linear-gradient(top, #0987b6 0%, #06a0d8 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0987b6), color-stop(100%, #06a0d8));
+  background: -webkit-linear-gradient(top, #0987b6 0%, #06a0d8 100%);
+  background: -o-linear-gradient(top, #0987b6 0%, #06a0d8 100%);
+  background: -ms-linear-gradient(top, #0987b6 0%, #06a0d8 100%);
+  background: linear-gradient(to bottom, #0987b6 0%, #06a0d8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#0987b6, endColorstr=#06a0d8, GradientType=0);
+}
